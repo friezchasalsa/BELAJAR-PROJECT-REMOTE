@@ -167,152 +167,237 @@
             </div>
         </div>
 
-        <!-- Portfolio -->
-        <div id="portfolio" class="container text-center py-5">
+        
+        <!-- Applications -->
+        <div id="applications" class="container text-center py-5">
+
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h3 class="fw-bold lh-2 mb-3">OUR PORTFOLIO</h3>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <h3 class="fw-bold lh-2 mb-3">PENERAPAN NAIVE BAYES</h3>
+
+                    <p class="lead">
+                        Kenali bagaimana algoritma Naive Bayes dimanfaatkan
+                        untuk menyelesaikan berbagai permasalahan di dunia nyata.
+                    </p>
                 </div>
             </div>
 
             <div class="row text-start py-4">
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100 border-0 rounded-4 shadow-sm">
-                        <div class="card-body p-4 pb-0">
-                            <div class="mb-3">
-                                <a href="https://pustakakoding.com/project-php-detail-aplikasi-kasir-jasa-cuci-mobil-dan-motor" target="_blank">
-                                    <img src="assets/img/portfolio/pustakakoding-aplikasi-kasir-jasa-cuci-mobil-dan-motor.jpg" alt="Portfolio" class="card-img-top img-fluid rounded-4">
-                                </a>
+
+                <!-- Spam Detection -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-envelope-exclamation"></i>
                             </div>
-                            <p class="fw-semibold">Aplikasi Kasir Jasa Cuci Mobil dan Motor</p>
+                            <h4 class="fw-bold">Deteksi Email Spam</h4>
+                            <p class="application-description">
+                                Memilah pesan masuk ke inbox atau spam berdasarkan probabilitas kata, yang uniknya dulu sempat memicu trik "ham poisoning" di mana pengirim spam menyisipkan kata-kata normal/positif agar skor spam-nya turun.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100 border-0 rounded-4 shadow-sm">
-                        <div class="card-body p-4 pb-0">
-                            <div class="mb-3">
-                                <a href="https://pustakakoding.com/project-php-detail-aplikasi-manajemen-keuangan-pribadi-single-user" target="_blank">
-                                    <img src="assets/img/portfolio/pustakakoding-aplikasi-manajemen-keuangan-pribadi-single-user.jpg" alt="Portfolio" class="card-img-top img-fluid rounded-4">
-                                </a>
+
+                <!-- Sentiment Analysis -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-emoji-smile"></i>
                             </div>
-                            <p class="fw-semibold">DompetKu - Aplikasi Manajemen Keuangan Pribadi (Single User)</p>
+                            <h4 class="fw-bold">Analisis Sentimen</h4>
+                            <p class="application-description">
+                                Menentukan nada positif, netral, atau negatif dari sebuah teks, yang menariknya sering terpengaruh kata bermakna ganda seperti "gila" (bisa "gila keren" atau "gila mahal") tergantung kecenderungan di data latihnya.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100 border-0 rounded-4 shadow-sm">
-                        <div class="card-body p-4 pb-0">
-                            <div class="mb-3">
-                                <a href="https://pustakakoding.com/project-php-detail-aplikasi-manajemen-kas-berbasis-web" target="_blank">
-                                    <img src="assets/img/portfolio/pustakakoding-aplikasi-manajemen-kas-berbasis-web.jpg" alt="Portfolio" class="card-img-top img-fluid rounded-4">
-                                </a>
+
+                <!-- News Classification -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-newspaper"></i>
                             </div>
-                            <p class="fw-semibold">Aplikasi Manajemen Kas Berbasis Web</p>
+                            <h4 class="fw-bold">Klasifikasi Berita</h4>
+                            <p class="application-description">
+                                Mengelompokkan artikel otomatis ke kanal topik tertentu, di mana kata-kata kontekstual seperti "offside" atau "inflasi" langsung mengunci kategori meski nama tokoh atau klubnya baru pertama kali muncul.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100 border-0 rounded-4 shadow-sm">
-                        <div class="card-body p-4 pb-0">
-                            <div class="mb-3">
-                                <a href="https://pustakakoding.com/project-php-detail-aplikasi-kasir-penjualan-pulsa" target="_blank">
-                                    <img src="assets/img/portfolio/pustakakoding-aplikasi-kasir-penjualan-pulsa.jpg" alt="Portfolio" class="card-img-top img-fluid rounded-4">
-                                </a>
+
+                <!-- Language Detection -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-translate"></i>
                             </div>
-                            <p class="fw-semibold">Aplikasi Kasir Penjualan Pulsa</p>
+                            <h4 class="fw-bold">Deteksi Bahasa</h4>
+                            <p class="application-description">
+                                Menebak bahasa dari potongan teks tanpa perlu kamus lengkap, karena model ini biasanya cukup membaca pola potongan huruf berurutan (character n-grams) sehingga tetap akurat meski teksnya pendek atau berisi singkatan.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100 border-0 rounded-4 shadow-sm">
-                        <div class="card-body p-4 pb-0">
-                            <div class="mb-3">
-                                <a href="https://pustakakoding.com/project-php-detail-aplikasi-pengelolaan-arsip-surat" target="_blank">
-                                    <img src="assets/img/portfolio/pustakakoding-aplikasi-pengelolaan-arsip-surat.jpg" alt="Portfolio" class="card-img-top img-fluid rounded-4">
-                                </a>
+
+                <!-- Document Classification -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-file-earmark-text"></i>
                             </div>
-                            <p class="fw-semibold">Aplikasi Pengelolaan Arsip Surat</p>
+                            <h4 class="fw-bold">Kategorisasi Dokumen</h4>
+                            <p class="application-description">
+                                Memberi label otomatis pada arsip atau tiket laporan berdasarkan frekuensi istilah, yang tetap ringan dan stabil di puluhan ribu kosakata berkat trik perhitungan log-probability.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="card h-100 border-0 rounded-4 shadow-sm">
-                        <div class="card-body p-4 pb-0">
-                            <div class="mb-3">
-                                <a href="https://pustakakoding.com/project-php-detail-sistem-informasi-persediaan-barang-gudang-material" target="_blank">
-                                    <img src="assets/img/portfolio/pustakakoding-sistem-informasi-persediaan-barang-gudang-material.jpg" alt="Portfolio" class="card-img-top img-fluid rounded-4">
-                                </a>
+
+                <!-- Disease Risk Prediction -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-heart-pulse"></i>
                             </div>
-                            <p class="fw-semibold">Sistem Informasi Persediaan Barang Gudang Material</p>
+                            <h4 class="fw-bold">Prediksi Risiko Penyakit</h4>
+                            <p class="application-description">
+                                Mengestimasi peluang risiko kondisi medis dari gejala atau indikator klinis, yang uniknya tetap mampu memberi peringkat screening awal yang masuk akal meski secara matematis menganggap gejala saling bebas padahal aslinya saling berkaitan.
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Chatbot Intent Classification -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <h4 class="fw-bold">Klasifikasi Intent Chatbot</h4>
+                            <p class="application-description">
+                                Mengenali maksud pengguna (seperti cek pesanan atau komplain) secara instan, sehingga sering dipakai sebagai "gerbang penyaring" super cepat sebelum sistem memanggil model AI yang lebih berat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Review Classification -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card application-card h-100 border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="application-icon mb-3">
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h4 class="fw-bold">Klasifikasi Ulasan Produk</h4>
+                            <p class="application-description">
+                                Memetakan review pembeli berdasarkan kepuasan atau aspek layanan, memanfaatkan "sidik jari" kosakata e-commerce seperti kata "penyok" yang langsung mengarah ke masalah pengemasan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <!-- Contact -->
-        <div id="contact" class="container text-center pt-4 pb-5">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h3 class="fw-bold lh-2 mb-3">CONTACT US</h3>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+
+
+        
+        <!-- Team -->
+        <section id="team" class="team-main">
+
+            <div class="team-section container">
+
+                <!-- Team Heading -->
+                <div class="team-heading">
+
+                    <span class="team-label">[ OUR TEAM ]</span>
+
+                    <h1>Meet the <span>Experts</span></h1>
+
+                    <p>
+                        Get to know the people behind our Naive Bayes project
+                        and explore the team working together to make it happen.
+                    </p>
+
                 </div>
+
+                <!-- Team Members -->
+                <div class="team-grid">
+
+                    <!-- Member 1 -->
+                    <article class="team-card">
+
+                        <div class="team-role">Member Role</div>
+
+                        <div class="team-photo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+
+                        <div class="team-info">
+                            <h3>Nama Anggota 1</h3>
+                        </div>
+
+                    </article>
+
+                    <!-- Member 2 -->
+                    <article class="team-card">
+
+                        <div class="team-role">Member Role</div>
+
+                        <div class="team-photo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+
+                        <div class="team-info">
+                            <h3>Nama Anggota 2</h3>
+                        </div>
+
+                    </article>
+
+                    <!-- Member 3 -->
+                    <article class="team-card">
+
+                        <div class="team-role">Member Role</div>
+
+                        <div class="team-photo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+
+                        <div class="team-info">
+                            <h3>Nama Anggota 3</h3>
+                        </div>
+
+                    </article>
+
+                    <!-- Member 4 -->
+                    <article class="team-card">
+
+                        <div class="team-role">Member Role</div>
+
+                        <div class="team-photo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+
+                        <div class="team-info">
+                            <h3>Nama Anggota 4</h3>
+                        </div>
+
+                    </article>
+
+                </div>
+
             </div>
 
-            <div class="row align-items-start text-start g-5 pt-4 pb-5">
-                <div class="col-lg-7">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127101.59148701998!2d105.19743545987781!3d-5.428404621346565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40dbcabf21b51f%3A0xdcb06324bff3cb9e!2sBandar%20Lampung%20City%2C%20Lampung!5e0!3m2!1sen!2sid!4v1670074127117!5m2!1sen!2sid" class="rounded-4 shadow-sm" width="100%" height="410" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card h-100 border-0 rounded-4 shadow-sm">
-                        <div class="card-body p-4 pb-0">
-                            <div class="d-flex py-2">
-                                <div class="flex-shrink-0">
-                                    <i class="bi bi-geo-alt text-primary fs-3"></i>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5 class="mb-1">Address</h5>
-                                    <p>Bandar Lampung City, Lampung</p>
-                                </div>
-                            </div>
-                            <hr class="hr-dotted mt-0">
-                            <div class="d-flex py-2">
-                                <div class="flex-shrink-0">
-                                    <i class="bi bi-whatsapp text-primary fs-4"></i>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5 class="mb-1">WhatsApp</h5>
-                                    <p>+62 813-7778-3334</p>
-                                </div>
-                            </div>
-                            <hr class="hr-dotted mt-0">
-                            <div class="d-flex py-2">
-                                <div class="flex-shrink-0">
-                                    <i class="bi bi-envelope text-primary fs-4"></i>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5 class="mb-1">Email</h5>
-                                    <p>pustaka.koding@gmail.com</p>
-                                </div>
-                            </div>
-                            <hr class="hr-dotted mt-0">
-                            <div class="d-flex py-2">
-                                <div class="flex-shrink-0">
-                                    <i class="bi bi-clock text-primary fs-4"></i>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5 class="mb-1">Working Hours</h5>
-                                    <p>Monday - Saturday, 09.00 AM - 16.00 PM</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+        </section>
+
 
     <!-- Footer -->
     <footer class="footer mt-auto py-4 bg-white">
